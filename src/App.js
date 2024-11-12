@@ -45,7 +45,7 @@ class App extends React.Component {
     script.src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js";
     script.async = true;
 
-    document.body.appendChild(script);
+    document.getElementById('root').appendChild(script);
 }
 
   colors = ['#475c6c', '#8a8583', '#eed7a1', '#f7efd2', '#cd8b62'];
