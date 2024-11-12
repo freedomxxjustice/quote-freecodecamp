@@ -85,7 +85,7 @@ class App extends React.Component {
             <button id="new-quote" onClick={this.handleClick} style={{backgroundColor: this.colors[this.state.color], transition: 'all 1s'}}>New quote</button>
           </div>
         </div>
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
       </div>
     )
   }
